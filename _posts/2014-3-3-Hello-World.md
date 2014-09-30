@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro
+title: Introduction
 ---
 
 <p>Hello there! This is just an introductory post as I get used to working with Jekyll and GitHub Pages. Over the next several weeks, I'll be posting blogs that cover a variety of topics (mostly at the introductory level):</p>
