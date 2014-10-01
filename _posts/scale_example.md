@@ -30,3 +30,14 @@ x.each do |a, b, c, d|
 	end
 end
 </code></pre>
+
+<p>Easy enough, right? Well, what if that array wasn't static? What if one of those inner arrays held, say, 5 values? If you guessed that the 5th value of one of the inner rays wouldn't be returned, you would be correct! Check out the following code, which requires less lines AND can 'scale':</p>
+<pre><code>
+x.each do |outer|
+	outer.each do |inner|
+		print inner
+	end
+	puts
+end
+</code></pre>
+<p> Loops within loops: difficult to grasp at first, but common AND useful!</p>
