@@ -9,4 +9,4 @@ permalink: /about/
   <li>Whereabouts: Chicago suburbs</li>
 </ul>
 
-[Email me.](mailto:email@domain.com)
+[Email me.](mailto:matt.carroll89@gmail.com)
