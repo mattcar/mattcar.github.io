@@ -5,10 +5,10 @@ title: Creating Your Own Ruby Gem
 
 <p>I'm sure an avid rubyist like yourself has relied heavily on gems created by the community. And I'm also sure, being the good person you are, you want to give back to that community! Well, good person or not (I don't judge), you can utilize this tutorial to get yourself going.</p>
 
-<p>Before doing anything else, create a new account at http://rubygems.org (this assumes you don't already have one). Remember your password! Then, in your terminal, log in with the command: gem push</p>
+<p>Before doing anything else, create a new account at http://rubygems.org (this assumes you don't already have one). Remember your password! Then, in your terminal, log in with the command: 'gem push'.</p>
 
-<p>If you intend to make an executable gem, make sure you check out the final list</p>
-
+<p>(If you intend to make an executable gem, make sure you check out the final list)</p>
+<p></p>
 <ol>
 	<li>Choose a name for your gem and then do the following: bundle gem gem_name (not the underscores for spaces)</li>
 	<li>cd into the gem name directory</li>
@@ -24,14 +24,14 @@ title: Creating Your Own Ruby Gem
 	<li>To test out your gem locally, run: rake install</li>
 	<li>Finally, run: rbenv rehash</li>
 </ol>
-
-<p>RELEASE INTO THE WILD</p>
+<p></p>
+<p><strong>RELEASE INTO THE WILD</strong></p>
 <ol>
 <li>Create github repo and push your code up there</li>
 <li>run 'rake release' in terminal</li>
 </ol>
-
-<p>Note the following for building an executable gem</p>
+<p></p>
+<p><strong>BUILDING AN EXECUTABLE GEM</strong></p>
 <ol>
 <li>Create a new folder at the root called bin.</li>
 <li>Create a file inside of the bin folder and give it the same name as the command that will initiate the gem in the terminal</li>
@@ -41,5 +41,5 @@ This changes the file from one that is read-and-write-only to one that is runnab
 <ul><li>Write your code in this file! You can, technically, write all your gem code exclusively inside this executable file. However, it’s best practice (from organization and conventions’ sake) to put the main code somewhere in the lib folder and refer to that code from your executable. If you want to get things to work on a basic level, you can try it out first in this file and always move code over later.</li></ul>
 </ol>
 
-
+<p></p>
 <p><a href="https://github.com/mattcar/weather_guy">Check out this super great example</a></p>
